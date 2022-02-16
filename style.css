@@ -1,0 +1,45 @@
+*,
+*::before,
+*:after {
+  box-sizing: border-box;
+}
+
+:root {
+  --col-font-color: rgb(116, 116, 116);
+  --col-border-color: rgb(249, 249, 249);
+  --col-background-color: rgb(254, 249, 249);
+}
+
+html {
+  font-family: "Kalam", cursive;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 25vh 0;
+  background-color: var(--col-background-color);
+}
+
+main {
+  margin: 0 auto;
+  width: 9cm;
+  height: 10cm;
+  transform: rotate(-3deg);
+  box-shadow: 2px 2px 1px gray, -2px -2px 1px lightgray;
+}
+
+img {
+  width: 7cm;
+  height: 7cm;
+  margin-top: 1cm;
+  border-radius: 1px;
+}
+
+figcaption {
+  width: 7cm;
+  text-align: center;
+  margin-top: 0.3cm;
+  color: var(--col-font-color);
+}
